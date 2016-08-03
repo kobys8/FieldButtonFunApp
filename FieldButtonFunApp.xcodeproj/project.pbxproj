@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D64F0F691BCDDBF200880C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F0F681BCDDBF200880C27 /* AppDelegate.swift */; };
+		D64F0F6B1BCDDBF200880C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F0F6A1BCDDBF200880C27 /* ViewController.swift */; };
+		D64F0F6E1BCDDBF200880C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64F0F6C1BCDDBF200880C27 /* Main.storyboard */; };
+		D64F0F701BCDDBF200880C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64F0F6F1BCDDBF200880C27 /* Assets.xcassets */; };
+		D64F0F731BCDDBF200880C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64F0F711BCDDBF200880C27 /* LaunchScreen.storyboard */; };
+		D64F0F7E1BCDDBF200880C27 /* FieldButtonFunAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F0F7D1BCDDBF200880C27 /* FieldButtonFunAppTests.swift */; };
+		D64F0F891BCDDBF200880C27 /* FieldButtonFunAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64F0F881BCDDBF200880C27 /* FieldButtonFunAppUITests.swift */; };
+		D694EE801BE14DBF00B411F5 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694EE7F1BE14DBF00B411F5 /* EditorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D64F0F7A1BCDDBF200880C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64F0F5D1BCDDBF200880C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64F0F641BCDDBF200880C27;
+			remoteInfo = FieldButtonFunApp;
+		};
+		D64F0F851BCDDBF200880C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64F0F5D1BCDDBF200880C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64F0F641BCDDBF200880C27;
+			remoteInfo = FieldButtonFunApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D64F0F651BCDDBF200880C27 /* FieldButtonFunApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldButtonFunApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F0F681BCDDBF200880C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D64F0F6A1BCDDBF200880C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D64F0F6D1BCDDBF200880C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D64F0F6F1BCDDBF200880C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D64F0F721BCDDBF200880C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D64F0F741BCDDBF200880C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F0F791BCDDBF200880C27 /* FieldButtonFunAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldButtonFunAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F0F7D1BCDDBF200880C27 /* FieldButtonFunAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldButtonFunAppTests.swift; sourceTree = "<group>"; };
+		D64F0F7F1BCDDBF200880C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64F0F841BCDDBF200880C27 /* FieldButtonFunAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldButtonFunAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64F0F881BCDDBF200880C27 /* FieldButtonFunAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldButtonFunAppUITests.swift; sourceTree = "<group>"; };
+		D64F0F8A1BCDDBF200880C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D694EE7F1BE14DBF00B411F5 /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64F0F621BCDDBF200880C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F0F761BCDDBF200880C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F0F811BCDDBF200880C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64F0F5C1BCDDBF200880C27 = {
+			isa = PBXGroup;
+			children = (
+				D64F0F671BCDDBF200880C27 /* FieldButtonFunApp */,
+				D64F0F7C1BCDDBF200880C27 /* FieldButtonFunAppTests */,
+				D64F0F871BCDDBF200880C27 /* FieldButtonFunAppUITests */,
+				D64F0F661BCDDBF200880C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D64F0F661BCDDBF200880C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64F0F651BCDDBF200880C27 /* FieldButtonFunApp.app */,
+				D64F0F791BCDDBF200880C27 /* FieldButtonFunAppTests.xctest */,
+				D64F0F841BCDDBF200880C27 /* FieldButtonFunAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D64F0F671BCDDBF200880C27 /* FieldButtonFunApp */ = {
+			isa = PBXGroup;
+			children = (
+				D64F0F681BCDDBF200880C27 /* AppDelegate.swift */,
+				D64F0F6A1BCDDBF200880C27 /* ViewController.swift */,
+				D64F0F6C1BCDDBF200880C27 /* Main.storyboard */,
+				D694EE7F1BE14DBF00B411F5 /* EditorViewController.swift */,
+				D64F0F6F1BCDDBF200880C27 /* Assets.xcassets */,
+				D64F0F711BCDDBF200880C27 /* LaunchScreen.storyboard */,
+				D64F0F741BCDDBF200880C27 /* Info.plist */,
+			);
+			path = FieldButtonFunApp;
+			sourceTree = "<group>";
+		};
+		D64F0F7C1BCDDBF200880C27 /* FieldButtonFunAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D64F0F7D1BCDDBF200880C27 /* FieldButtonFunAppTests.swift */,
+				D64F0F7F1BCDDBF200880C27 /* Info.plist */,
+			);
+			path = FieldButtonFunAppTests;
+			sourceTree = "<group>";
+		};
+		D64F0F871BCDDBF200880C27 /* FieldButtonFunAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D64F0F881BCDDBF200880C27 /* FieldButtonFunAppUITests.swift */,
+				D64F0F8A1BCDDBF200880C27 /* Info.plist */,
+			);
+			path = FieldButtonFunAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64F0F641BCDDBF200880C27 /* FieldButtonFunApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F0F8D1BCDDBF200880C27 /* Build configuration list for PBXNativeTarget "FieldButtonFunApp" */;
+			buildPhases = (
+				D64F0F611BCDDBF200880C27 /* Sources */,
+				D64F0F621BCDDBF200880C27 /* Frameworks */,
+				D64F0F631BCDDBF200880C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FieldButtonFunApp;
+			productName = FieldButtonFunApp;
+			productReference = D64F0F651BCDDBF200880C27 /* FieldButtonFunApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D64F0F781BCDDBF200880C27 /* FieldButtonFunAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F0F901BCDDBF200880C27 /* Build configuration list for PBXNativeTarget "FieldButtonFunAppTests" */;
+			buildPhases = (
+				D64F0F751BCDDBF200880C27 /* Sources */,
+				D64F0F761BCDDBF200880C27 /* Frameworks */,
+				D64F0F771BCDDBF200880C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64F0F7B1BCDDBF200880C27 /* PBXTargetDependency */,
+			);
+			name = FieldButtonFunAppTests;
+			productName = FieldButtonFunAppTests;
+			productReference = D64F0F791BCDDBF200880C27 /* FieldButtonFunAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D64F0F831BCDDBF200880C27 /* FieldButtonFunAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64F0F931BCDDBF200880C27 /* Build configuration list for PBXNativeTarget "FieldButtonFunAppUITests" */;
+			buildPhases = (
+				D64F0F801BCDDBF200880C27 /* Sources */,
+				D64F0F811BCDDBF200880C27 /* Frameworks */,
+				D64F0F821BCDDBF200880C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64F0F861BCDDBF200880C27 /* PBXTargetDependency */,
+			);
+			name = FieldButtonFunAppUITests;
+			productName = FieldButtonFunAppUITests;
+			productReference = D64F0F841BCDDBF200880C27 /* FieldButtonFunAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64F0F5D1BCDDBF200880C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Koby Samuel";
+				TargetAttributes = {
+					D64F0F641BCDDBF200880C27 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D64F0F781BCDDBF200880C27 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D64F0F641BCDDBF200880C27;
+					};
+					D64F0F831BCDDBF200880C27 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D64F0F641BCDDBF200880C27;
+					};
+				};
+			};
+			buildConfigurationList = D64F0F601BCDDBF200880C27 /* Build configuration list for PBXProject "FieldButtonFunApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64F0F5C1BCDDBF200880C27;
+			productRefGroup = D64F0F661BCDDBF200880C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64F0F641BCDDBF200880C27 /* FieldButtonFunApp */,
+				D64F0F781BCDDBF200880C27 /* FieldButtonFunAppTests */,
+				D64F0F831BCDDBF200880C27 /* FieldButtonFunAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64F0F631BCDDBF200880C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F0F731BCDDBF200880C27 /* LaunchScreen.storyboard in Resources */,
+				D64F0F701BCDDBF200880C27 /* Assets.xcassets in Resources */,
+				D64F0F6E1BCDDBF200880C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F0F771BCDDBF200880C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F0F821BCDDBF200880C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64F0F611BCDDBF200880C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F0F6B1BCDDBF200880C27 /* ViewController.swift in Sources */,
+				D694EE801BE14DBF00B411F5 /* EditorViewController.swift in Sources */,
+				D64F0F691BCDDBF200880C27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F0F751BCDDBF200880C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F0F7E1BCDDBF200880C27 /* FieldButtonFunAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64F0F801BCDDBF200880C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F0F891BCDDBF200880C27 /* FieldButtonFunAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D64F0F7B1BCDDBF200880C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64F0F641BCDDBF200880C27 /* FieldButtonFunApp */;
+			targetProxy = D64F0F7A1BCDDBF200880C27 /* PBXContainerItemProxy */;
+		};
+		D64F0F861BCDDBF200880C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64F0F641BCDDBF200880C27 /* FieldButtonFunApp */;
+			targetProxy = D64F0F851BCDDBF200880C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D64F0F6C1BCDDBF200880C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64F0F6D1BCDDBF200880C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D64F0F711BCDDBF200880C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64F0F721BCDDBF200880C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64F0F8B1BCDDBF200880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D64F0F8C1BCDDBF200880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D64F0F8E1BCDDBF200880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FieldButtonFunApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.FieldButtonFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D64F0F8F1BCDDBF200880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FieldButtonFunApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.FieldButtonFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D64F0F911BCDDBF200880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FieldButtonFunAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.FieldButtonFunAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldButtonFunApp.app/FieldButtonFunApp";
+			};
+			name = Debug;
+		};
+		D64F0F921BCDDBF200880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FieldButtonFunAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.FieldButtonFunAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldButtonFunApp.app/FieldButtonFunApp";
+			};
+			name = Release;
+		};
+		D64F0F941BCDDBF200880C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FieldButtonFunAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.FieldButtonFunAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FieldButtonFunApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D64F0F951BCDDBF200880C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FieldButtonFunAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kobysamuel.FieldButtonFunAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FieldButtonFunApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64F0F601BCDDBF200880C27 /* Build configuration list for PBXProject "FieldButtonFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F0F8B1BCDDBF200880C27 /* Debug */,
+				D64F0F8C1BCDDBF200880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64F0F8D1BCDDBF200880C27 /* Build configuration list for PBXNativeTarget "FieldButtonFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F0F8E1BCDDBF200880C27 /* Debug */,
+				D64F0F8F1BCDDBF200880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64F0F901BCDDBF200880C27 /* Build configuration list for PBXNativeTarget "FieldButtonFunAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F0F911BCDDBF200880C27 /* Debug */,
+				D64F0F921BCDDBF200880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64F0F931BCDDBF200880C27 /* Build configuration list for PBXNativeTarget "FieldButtonFunAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64F0F941BCDDBF200880C27 /* Debug */,
+				D64F0F951BCDDBF200880C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64F0F5D1BCDDBF200880C27 /* Project object */;
+}
